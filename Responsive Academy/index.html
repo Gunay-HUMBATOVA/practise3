@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="html, Academy, school">
+    <meta name="keywords" content="html, Academy, school, css, javascript">
+    <meta name="author" content="Gunay">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academy website</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+    <a href="#" class="active"><img class="logo" src="images/logo-full-white.svg" alt="logo"/></a>
+    <a href="#">In the classroom</a>
+    <a href="#">Courses</a>
+    <a href="#">Competitions</a>
+    <div class="dropdown">
+        <button class="dropbutton">More</button>
+        <div class="dropdown-content">
+            <a href="#">Pricing</a>
+            <a href="#">About Grok</a>
+            <a href="#">FAQs</a>
+            <a href="#">Events</a>
+            <a href="#">Press</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Champion schools</a>
+            <a href="#">Partners</a>
+            <a href="#">Universities</a>
+        </div>
+        <! –– end of Dropdown-content ––>
+    </div>
+    <! –– end of Dropdown ––>
+    <a id="replace-text2" href="#"><img class="icons" src="images/register-icon.png" alt="registericon"/> Register</a>
+    <a class="no-replace" href="#"><img class="icons" src="images/login-icon.png" alt="loginicon"/> Login</a>
+    <a class="replace-text" id="change" href="#"><img class="icons" src="images/mail-icon.png" alt="supporticon"/>
+        Support</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<! –– end of topnav and myTopnav ––>
+
+<! –– Section one ––>
+<section>
+    <div class="sectionone">
+        <div class="whitebox">
+            <h1>Web.Comp 2021</h1>
+            <h3>Starts May 10</h3>
+            <br/>
+            <blockquote>“Design is not just what it looks like and feels like. Design is how it works.”</blockquote>
+            <div class="blockquote-attribution">—Steve Jobs</div>
+        </div>
+    </div>
+</section>
+
+<! –– Section two ––>
+<section>
+    <div class="sectiontwo">
+        <div class="col1">
+            <h1>What is Web.Comp?</h1>
+            <p class="firstp">
+                Web.Comp is a web design competition for school students. We’ll teach you how to build a website as we
+                go along, rather than expecting you to be an expert already.
+            </p>
+            <br/>
+            <p class="secondp">
+                Web.Comp 2021 has two components:
+                <br/>
+                <b>Learn</b> is a 4-week series of challenges where students learn as they go along. Each week, we'll
+                release interactive notes with the information students will need to complete the week's web design
+                challenges. Students earn points for completing probems and claim a place on the leaderboard -
+                participants will receive certificates for their results in this competition. The Learn competition
+                starts <b>May 10</b>.
+                <br/>
+                <b>Tournament</b> is a week long competition where students can design their own web pages and submit
+                their creations to compete against other students' designs. They can also vote for their favourites. The
+                Tournament begins on <b>June 7</b>.
+            </p>
+        </div>
+        <div class="col2">
+            <h1>Why learn web design?</h1>
+            <p class="firstp">
+                Every time you use the web, you're seeing HTML and CSS.
+                <br/>
+                We use websites every day. Creating a functional and well-designed website is one of the most useful
+                technical skills you can learn.</p>
+            <br/>
+            <p class="secondp">
+                Web.Comp teaches you HTML and CSS, the powerful building blocks needed to build a website from scratch.
+                Learning to write HTML and CSS by hand gives you full control over the look and interactivity of your
+                site, so you can implement your web designs exactly as you imagined them!
+            </p>
+        </div>
+    </div>
+</section>
+
+<! –– Section three ––>
+<section class="graybackground">
+    <h1 class="centertext">Which stream should I participate in?</h1>
+    <div class="sectionthree">
+        <div class="beginner">
+            <img src="images/webcomp-green.svg" alt="beginnericon"/>
+            <h2>Web.Comp (Beginners)</h2>
+            <p>
+                Students learn the basics of HTML, CSS, and how the internet works. We'll also teach them how to apply
+                design principles to transform design briefs into digital creations. Recommended for students with
+                little or no HTML/CSS experience.
+            </p>
+            <br/>
+            <button class="viewbutton">View more</button>
+        </div>
+        <div class="intermediate">
+            <img src="images/webcomp-yellow.svg" alt="intermediateicon"/>
+            <h2>Web.Comp (Intermediate)</h2>
+            <p>
+                Want to go beyond the skills you learned in Beginners? Students will extend their web design knowledge
+                and cover more advanced topics. We assume students have completed either the Beginners stream, or our
+                Intro to HTML course.
+            </p>
+            <br/>
+            <button class="viewbutton">View more</button>
+        </div>
+        <div class="tournament">
+            <img src="images/tour.png" alt="tournamenticon"/>
+            <h2>Web.Comp Tournament</h2>
+            <p>
+                The tournament is open to all students. However, students will need some prior HTML/CSS knowledge to
+                compete. We recommend students have previously completed either stream of Web.Comp or our Intro to HTML
+                course. </p>
+            <br/>
+            <button class="viewbutton">View more</button>
+        </div>
+    </div>
+</section>
+
+<! –– Section four ––>
+<section class="whitebackground">
+    <h1 class="centertext">Which stream should I participate in?</h1>
+    <div class="sectionthree">
+        <div class="tutorsupport">
+            <img src="images/icon-forums.svg" alt="supporticon"/>
+            <h2>Online tutor support</h2>
+            <p>
+                Find a welcoming community of qualified tutors providing personalised, one-on-one support. Get help and
+                communicate in a safe, moderated environment.
+            </p>
+        </div>
+        <div class="achievement">
+            <img src="images/icon-certificate.svg" alt="achievementicon"/>
+            <h2>Certificate of achievement</h2>
+            <p>
+                Grok competitions are challenging, and we want to recognise students’ achievements! All students who
+                participate will receive a printable certificate.
+            </p>
+        </div>
+        <div class="leaderboard">
+            <img src="images/icon-leaderboard.svg" alt="rankicon"/>
+            <h2>Rank on the leaderboard</h2>
+            <p>
+                Students go head to head with other students from around the world! They earn points for each problem
+                they solve, claim their rank on the leaderboard, to win glory for themselves and their school!
+        </div>
+    </div>
+</section>
+
+<! –– Section five ––>
+<section class="graybackground">
+    <div class="sectionfive">
+        <div class="col3">
+            <h1>Free Access for Teachers</h1>
+            <h3>So what's the catch?</h3>
+            <p class="secondp">
+                There really isn't a catch! We're committed to supporting teachers, both in and out of the classroom.
+                That's why we offer all verified teachers <b>free access to all of our material</b>. Not just this
+                competition, but all of the other <a href="https://www.google.com">courses</a> and <a
+                    href="https://www.google.com">competitions</a> we run.
+            </p>
+            <p class="secondp">
+                You can use it for your own professional development, to compete alongside your students, or to find out
+                whether the material is suitable for your students.
+            </p>
+            <p class="secondp">
+                To get access as a teacher, simply create an account and request teacher verification from your account
+                settings page. <br/>
+            </p>
+        </div>
+        <div class="col3">
+            <h1>Grok School Access for Students</h1>
+            <h3>Get a free 21 day trial</h3>
+            <p class="secondp">
+                Students will need Grok School Access to participate in Web.Comp. Grok School Access gives students
+                access to all our competitions and courses. We offer both yearly and semester access so you can choose
+                which option works best for you.
+            </p>
+            <p class="secondp">
+                To request access for your students, go to your teacher dashboard and click 'Request a Quote' and enter
+                your numbers, we will get back to you shortly with a quote. While you wait for your quote, we will grant
+                you a 21 day free trial so you and your students can get Grokking straight away. Questions? Send us an
+                email <a href="mailto:123@gmail.com">support@groklearning.com</a>.
+            </p>
+        </div>
+    </div>
+</section>
+
+<! –– Section six ––>
+<section class="bluebackground">
+    <div class="sectionsix">
+        <h1>Student designs from previous Tournaments</h1>
+        <p>
+            Check out student designs submitted to past Web.Comp Design Tournaments: The Plant Warehouse (a fictional
+            plant sale) and gBay (a fictional online marketplace). Students were given the HTML for these websites which
+            they styled using the web design skills they'd learned in the previous four weeks!
+        </p>
+        <h1>The Plant Warehouse</h1>
+        <div class="part1images">
+            <a><img src="images/1.png" alt="plant"/></a>
+            <a><img src="images/2.png" alt="meal"/></a>
+            <a><img src="images/3.png" alt="blog"/></a>
+            <a><img src="images/4.png" alt="warehouse"/></a>
+        </div>
+        <h1>gBay</h1>
+        <div class="part2images">
+            <a><img src="images/5.png" alt="pink"/></a>
+            <a><img src="images/6.png" alt="blue"/></a>
+            <a><img src="images/7.png" alt="orange"/></a>
+            <a><img src="images/8.png" alt="yellow"/></a>
+        </div>
+    </div>
+</section>
+
+<! –– Section seven ––>
+<section class="laptop1">
+    <div class="sectionseven">
+        <h1>The most effective way for students to learn coding.</h1>
+        <div class="row1">
+            <div class="item1">
+                <img src="images/icon-problems.svg" alt="problems"/>
+                <h3>Challenging problems</h3>
+                <p>
+                    Our problem-based learning approach matches each new concept with a problem so you learn by doing!
+                </p>
+                <div class="arrow1">
+                </div>
+            </div>
+            <div class="item2">
+                <img src="images/icon-browser.svg" alt="browser"/>
+                <h3>Code in the browser</h3>
+                <p>
+                    Code from any device, any time - start a question on your iPad at school and finish it off on your
+                    computer at home.
+                </p>
+                <div class="arrow2">
+                </div>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="item3">
+                <img src="images/icon-notes-green.svg" alt="note-icon"/>
+                <h3>Interactive notes</h3>
+                <p>
+                    Dive straight into coding while using the notes, with interactive code snippets that can be
+                    edited and
+                    run.
+                </p>
+                <div class="arrow3">
+                </div>
+            </div>
+            <div class="item4">
+                <img src="images/icon-automarking.svg" alt="mark"/>
+                <h3>Intelligent automarking</h3>
+                <p>
+                    Our automarker breaks each problem down into tests and gives you useful feedback to help you
+                    solve
+                    it!
+                </p>
+                <div class="arrow4">
+                </div>
+                <div class="blue-arrow5">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sec2">
+    <div class="row3">
+        <div class="item5">
+            <img src="images/icon-teacher.svg" alt="teacher"/>
+            <h3>Designed for teachers</h3>
+            <p>
+                We've designed our platform with your needs firmly in mind. Let our classroom-ready resources do the
+                heavy
+                lifting of content delivery, so you can focus on your students.
+            </p>
+            <div class="arrow6">
+            </div>
+        </div>
+        <div class="item6">
+            <img src="images/icon-dashboard-red.svg" alt="progress"/>
+            <h3>View student progress</h3>
+            <p>
+                View and edit your students’ details, and easily keep track of their progress on our teacher
+                dashboard.
+                Get
+                quick updates at a glance, or drill down to see all student activity.
+            </p>
+            <div class="arrow7">
+            </div>
+        </div>
+    </div>
+</section>
+
+<! –– Section eight ––>
+<section class="graybackground trycolor">
+    <div class="sectioneight">
+        <div class="competition-faqs">
+            <img src="images/icon-faq.svg" alt="beginnericon"/>
+            <div class="background-white">
+                <h2>Competition FAQs</h2>
+                <p>
+                    Find answers to the most frequently asked questions about our competitions.
+                </p>
+                <br/>
+                <button class="viewbutton">Read the FAQ</button>
+            </div>
+        </div>
+        <div class="related-courses">
+            <img src="images/html-css-green.svg" alt="intermediateicon"/>
+            <div class="background-white">
+                <h2>Related courses</h2>
+                <p>
+                    Web.Comp at the wrong time? Try our HTML/CSS course.
+                </p>
+                <br/>
+                <button class="viewbutton">Intro to HTML/CSS</button>
+            </div>
+        </div>
+        <div class="past-tournament-designs">
+            <img src="images/icon-competition-globus.svg" alt="tournamenticon"/>
+            <div class="background-white">
+                <h2>Past tournament designs</h2>
+                <p>
+                    Check out more student designs from Web.Comp 2019.
+                </p>
+                <br/>
+                <button class="viewbutton">View designs</button>
+            </div>
+        </div>
+        <div class="champion-schools">
+            <img src="images/icon-champion.svg" alt="tournamenticon"/>
+            <div class="background-white">
+                <h2>Champion schools</h2>
+                <p>
+                    Grok is proud to partner with our technology education champion schools.
+                </p>
+                <br/>
+                <button class="viewbutton">See champion schools</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sectionnine">
+    <h1>Stop downloading, start uploading.</h1>
+    <button class="register-button">Register account</button>
+</section>
+
+<section class="sectionten-footer">
+    <div class="footer-navigation">
+        <a href="#">About</a>
+        <a href="#">Pricing</a>
+        <a href="#">In the Classroom</a>
+        <a href="#">Partners</a>
+        <a href="#">Polices & Procedures</a>
+        <a href="#">Blog</a>
+        <a href="#">Help</a>
+    </div>
+    <hr class="hr-color"/>
+    <div class="contact-addresses">
+        <img src="images/message-icon.png" alt="message-icon"/>
+        <img src="images/facebook-icon.png" alt="facebook-icon"/>
+        <img src="images/twitter-icon.png" alt="twitter-icon"/>
+    </div>
+    <div class="end-paragraph">
+        <p>Grok Learning Pty Ltd — <span title="Australian Business Number">A.B.N.</span> 31 162 421 909</p>
+        <div class="explain-text"></div>
+    </div>
+</section>
+
+<! –– Javascript ––>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+</body>
+</html>

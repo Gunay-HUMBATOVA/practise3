@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="353px" height="279px" viewBox="0 0 353 279" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>dashboard-tablet</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="225.405405" height="289.295117" rx="7.5"></rect>
+    </defs>
+    <g id="New-teachers-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-543.000000, -1098.000000)">
+            <g id="features" sketch:type="MSLayerGroup" transform="translate(150.000000, 600.000000)">
+                <g id="dashboard-features" transform="translate(0.000000, 402.000000)">
+                    <g id="dashboard-tablet" transform="translate(570.000000, 235.500000) rotate(-90.000000) translate(-570.000000, -235.500000) translate(431.000000, 59.000000)">
+                        <rect id="Rectangle-382" stroke="#A0A0A0" stroke-width="3.75" fill="#656565" sketch:type="MSShapeGroup" x="0" y="0" width="278" height="352.250531" rx="15"></rect>
+                        <ellipse id="Oval-26" stroke="#A0A0A0" stroke-width="3.75" fill="#656565" sketch:type="MSShapeGroup" cx="139" cy="335.014862" rx="11.2702703" ry="11.2420382"></ellipse>
+                        <g id="screen" transform="translate(26.000000, 31.000000)">
+                            <mask id="mask-2" sketch:name="Mask" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                            <g id="buttons" mask="url(#mask-2)" fill="#D8D8D8" sketch:type="MSShapeGroup">
+                                <g transform="translate(178.070270, 106.049894) rotate(90.000000) translate(-178.070270, -106.049894) translate(97.675676, 100.428875)">
+                                    <rect id="Rectangle-151" x="0" y="0" width="34.5621622" height="11.2420382" rx="6"></rect>
+                                    <rect id="Rectangle-151-Copy" x="42.0756757" y="0" width="34.5621622" height="11.2420382" rx="6"></rect>
+                                    <rect id="Rectangle-151-Copy-2" x="84.1513514" y="0" width="34.5621622" height="11.2420382" rx="6"></rect>
+                                    <rect id="Rectangle-151-Copy-3" x="126.227027" y="0" width="34.5621622" height="11.2420382" rx="6"></rect>
+                                </g>
+                            </g>
+                            <rect id="Rectangle-349-Copy" fill="#014568" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="195.405405" y="-0.916135881" width="50" height="291"></rect>
+                            <g id="progress-dots-+-2-s-ago-+-okay" mask="url(#mask-2)">
+                                <g transform="translate(111.575676, -1.000000)">
+                                    <rect id="Rectangle-149" fill="#F5F5F5" fill-rule="evenodd" sketch:type="MSShapeGroup" x="0.375675676" y="1" width="48.8378378" height="289.295117"></rect>
+                                    <g id="progress-dots" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSLayerGroup" transform="translate(17.281081, 77.944798)">
+                                        <rect id="Rectangle-360-Copy" stroke="#308A24" stroke-width="2.25" fill="#7AD76E" sketch:type="MSShapeGroup" transform="translate(7.437999, 53.136989) rotate(-45.000000) translate(-7.437999, -53.136989) " x="2.17853944" y="47.8907043" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-2" stroke="#308A24" stroke-width="2.25" fill="#7AD76E" sketch:type="MSShapeGroup" transform="translate(7.437999, 68.126373) rotate(-45.000000) translate(-7.437999, -68.126373) " x="2.17853944" y="62.8800886" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-3" stroke="#F58823" stroke-width="2.25" fill="#FAC334" sketch:type="MSShapeGroup" transform="translate(7.437999, 83.115757) rotate(-45.000000) translate(-7.437999, -83.115757) " x="2.17853944" y="77.8694729" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-4" stroke="#AAAAAA" stroke-width="2.25" fill="#F5F5F5" sketch:type="MSShapeGroup" transform="translate(7.437999, 98.105142) rotate(-45.000000) translate(-7.437999, -98.105142) " x="2.17853944" y="92.8588571" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-6" stroke="#308A24" stroke-width="2.25" fill="#7AD76E" sketch:type="MSShapeGroup" transform="translate(7.437999, 38.147604) rotate(-45.000000) translate(-7.437999, -38.147604) " x="2.17853944" y="32.90132" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-7" stroke="#F58823" stroke-width="2.25" fill="#FAC334" sketch:type="MSShapeGroup" transform="translate(7.437999, 23.158220) rotate(-45.000000) translate(-7.437999, -23.158220) " x="2.17853944" y="17.9119357" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-8" stroke="#308A24" stroke-width="2.25" fill="#7AD76E" sketch:type="MSShapeGroup" transform="translate(7.437999, 8.168836) rotate(-45.000000) translate(-7.437999, -8.168836) " x="2.17853944" y="2.92255141" width="10.5189189" height="10.492569"></rect>
+                                    </g>
+                                    <text id="2-s-ago" fill="none" sketch:type="MSTextLayer" transform="translate(26.046847, 229.338287) rotate(90.000000) translate(-26.046847, -229.338287) " font-family="Lato" font-size="18" font-weight="bold">
+                                        <tspan x="-1.5027027" y="236.346072" fill="#AAAAAA">2 s ago</tspan>
+                                    </text>
+                                    <g id="okay" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSLayerGroup" transform="translate(25.000000, 45.000000) rotate(90.000000) translate(-25.000000, -45.000000) translate(11.000000, 31.000000)">
+                                        <path d="M14,28 C21.7319865,28 28,21.7319865 28,14 C28,6.2680135 21.7319865,0 14,0 C6.2680135,0 0,6.2680135 0,14 C0,21.7319865 6.2680135,28 14,28 Z" id="Oval-54" stroke="#AAAAAA" stroke-width="1.8" fill="#F5F5F5" sketch:type="MSShapeGroup"></path>
+                                        <ellipse id="Oval-56" stroke="#979797" stroke-width="1.8" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="8.82608696" cy="10.2355217" rx="0.913043478" ry="0.913043478"></ellipse>
+                                        <ellipse id="Oval-56-Copy" stroke="#979797" stroke-width="1.8" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="19.173913" cy="10.2355217" rx="0.913043478" ry="0.913043478"></ellipse>
+                                        <path d="M7.60869565,17.6521739 C7.60869565,17.6521739 9.13043478,21.9130435 14,21.9130435 C18.8695652,21.9130435 20.3913043,17.6521739 20.3913043,17.6521739" id="Line" stroke="#979797" stroke-width="1.8" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="progress-dots-copy-+-5-m-ago-+-sad" mask="url(#mask-2)">
+                                <g transform="translate(72.875676, 30.231423)">
+                                    <g id="progress-dots-copy" stroke-width="1" fill-rule="evenodd" sketch:type="MSLayerGroup" transform="translate(6.767568, 46.713376)">
+                                        <rect id="Rectangle-360-Copy" stroke="#AAAAAA" stroke-width="2.25" fill="#F5F5F5" sketch:type="MSShapeGroup" transform="translate(7.437999, 53.136989) rotate(-45.000000) translate(-7.437999, -53.136989) " x="2.17853944" y="47.8907043" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-2" stroke="#F58823" stroke-width="2.25" fill="#FAC334" sketch:type="MSShapeGroup" transform="translate(7.437999, 68.126373) rotate(-45.000000) translate(-7.437999, -68.126373) " x="2.17853944" y="62.8800886" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-3" stroke="#AAAAAA" stroke-width="2.25" fill="#F5F5F5" sketch:type="MSShapeGroup" transform="translate(7.437999, 83.115757) rotate(-45.000000) translate(-7.437999, -83.115757) " x="2.17853944" y="77.8694729" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-4" stroke="#AAAAAA" stroke-width="2.25" fill="#F5F5F5" sketch:type="MSShapeGroup" transform="translate(7.437999, 98.105142) rotate(-45.000000) translate(-7.437999, -98.105142) " x="2.17853944" y="92.8588571" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-6" stroke="#AAAAAA" stroke-width="2.25" fill="#F5F5F5" sketch:type="MSShapeGroup" transform="translate(7.437999, 38.147604) rotate(-45.000000) translate(-7.437999, -38.147604) " x="2.17853944" y="32.90132" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-7" stroke="#F58823" stroke-width="2.25" fill="#FAC334" sketch:type="MSShapeGroup" transform="translate(7.437999, 23.158220) rotate(-45.000000) translate(-7.437999, -23.158220) " x="2.17853944" y="17.9119357" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-8" stroke="#F58823" stroke-width="2.25" fill="#FAC334" sketch:type="MSShapeGroup" transform="translate(7.437999, 8.168836) rotate(-45.000000) translate(-7.437999, -8.168836) " x="2.17853944" y="2.92255141" width="10.5189189" height="10.492569"></rect>
+                                    </g>
+                                    <text id="5-m-ago" sketch:type="MSTextLayer" transform="translate(15.282883, 201.854211) rotate(90.000000) translate(-15.282883, -201.854211) " font-family="Lato" font-size="18" font-weight="bold">
+                                        <tspan x="-15.772973" y="208.861996" fill="#AAAAAA">5 m ago</tspan>
+                                    </text>
+                                    <g id="sad" stroke-width="1" fill-rule="evenodd" sketch:type="MSLayerGroup" transform="translate(14.000000, 14.000000) rotate(90.000000) translate(-14.000000, -14.000000) ">
+                                        <path d="M14,28 C21.7319865,28 28,21.7319865 28,14 C28,6.2680135 21.7319865,0 14,0 C6.2680135,0 0,6.2680135 0,14 C0,21.7319865 6.2680135,28 14,28 Z" id="Oval-54" stroke="#AAAAAA" stroke-width="1.8" fill="#F5F5F5" sketch:type="MSShapeGroup"></path>
+                                        <ellipse id="Oval-56" stroke="#979797" stroke-width="1.8" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="8.82608696" cy="10.2355217" rx="0.913043478" ry="0.913043478"></ellipse>
+                                        <ellipse id="Oval-56-Copy" stroke="#979797" stroke-width="1.8" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="19.173913" cy="10.2355217" rx="0.913043478" ry="0.913043478"></ellipse>
+                                        <path d="M7.60869565,20.0869565 C7.60869565,20.0869565 9.13043478,17.6521739 14,17.6521739 C18.8695652,17.6521739 20.3913043,20.0869565 20.3913043,20.0869565" id="Line" stroke="#979797" stroke-width="1.8" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="progress-dots-copy-2-+-1-h-ago-+-happy" mask="url(#mask-2)">
+                                <g transform="translate(15.027027, 0.000000)">
+                                    <rect id="Rectangle-149-Copy" fill="#F5F5F5" fill-rule="evenodd" sketch:type="MSShapeGroup" x="0" y="0" width="48.8378378" height="289.295117"></rect>
+                                    <g id="progress-dots-copy-2" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSLayerGroup" transform="translate(15.027027, 76.944798)">
+                                        <rect id="Rectangle-360-Copy" stroke="#308A24" stroke-width="2.25" fill="#7AD76E" sketch:type="MSShapeGroup" transform="translate(7.437999, 53.136989) rotate(-45.000000) translate(-7.437999, -53.136989) " x="2.17853944" y="47.8907043" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-2" stroke="#308A24" stroke-width="2.25" fill="#7AD76E" sketch:type="MSShapeGroup" transform="translate(7.437999, 68.126373) rotate(-45.000000) translate(-7.437999, -68.126373) " x="2.17853944" y="62.8800886" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-3" stroke="#308A24" stroke-width="2.25" fill="#7AD76E" sketch:type="MSShapeGroup" transform="translate(7.437999, 83.115757) rotate(-45.000000) translate(-7.437999, -83.115757) " x="2.17853944" y="77.8694729" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-4" stroke="#308A24" stroke-width="2.25" fill="#7AD76E" sketch:type="MSShapeGroup" transform="translate(7.437999, 98.105142) rotate(-45.000000) translate(-7.437999, -98.105142) " x="2.17853944" y="92.8588571" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-6" stroke="#308A24" stroke-width="2.25" fill="#7AD76E" sketch:type="MSShapeGroup" transform="translate(7.437999, 38.147604) rotate(-45.000000) translate(-7.437999, -38.147604) " x="2.17853944" y="32.90132" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-7" stroke="#308A24" stroke-width="2.25" fill="#7AD76E" sketch:type="MSShapeGroup" transform="translate(7.437999, 23.158220) rotate(-45.000000) translate(-7.437999, -23.158220) " x="2.17853944" y="17.9119357" width="10.5189189" height="10.492569"></rect>
+                                        <rect id="Rectangle-360-Copy-8" stroke="#308A24" stroke-width="2.25" fill="#7AD76E" sketch:type="MSShapeGroup" transform="translate(7.437999, 8.168836) rotate(-45.000000) translate(-7.437999, -8.168836) " x="2.17853944" y="2.92255141" width="10.5189189" height="10.492569"></rect>
+                                    </g>
+                                    <text id="1-h-ago" fill="none" sketch:type="MSTextLayer" transform="translate(24.043243, 229.087757) rotate(90.000000) translate(-24.043243, -229.087757) " font-family="Lato" font-size="18" font-weight="bold">
+                                        <tspan x="-4.50810811" y="236.095541" fill="#AAAAAA">1 h ago</tspan>
+                                    </text>
+                                    <g id="happy" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSLayerGroup" transform="translate(23.000000, 44.000000) rotate(90.000000) translate(-23.000000, -44.000000) translate(9.000000, 30.000000)">
+                                        <path d="M14,28 C21.7319865,28 28,21.7319865 28,14 C28,6.2680135 21.7319865,0 14,0 C6.2680135,0 0,6.2680135 0,14 C0,21.7319865 6.2680135,28 14,28 Z" id="Oval-54" stroke="#AAAAAA" stroke-width="1.8" fill="#F5F5F5" sketch:type="MSShapeGroup"></path>
+                                        <path d="M21.8899802,16.0181304 C21.5791651,20.1039682 18.1654442,23.3224783 14,23.3224783 C9.8345558,23.3224783 6.42083491,20.1039682 6.11001978,16.0181304 L21.8899802,16.0181304 Z" id="Oval-55" stroke="#AAAAAA" stroke-width="1.8" sketch:type="MSShapeGroup"></path>
+                                        <ellipse id="Oval-56" stroke="#979797" stroke-width="1.8" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="8.82608696" cy="10.2355217" rx="0.913043478" ry="0.913043478"></ellipse>
+                                        <ellipse id="Oval-56-Copy" stroke="#979797" stroke-width="1.8" fill="#D8D8D8" sketch:type="MSShapeGroup" cx="19.173913" cy="10.2355217" rx="0.913043478" ry="0.913043478"></ellipse>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <path d="M139,21.985138 C141.904719,21.985138 144.259459,19.6362964 144.259459,16.7388535 C144.259459,13.8414106 141.904719,11.492569 139,11.492569 C136.095281,11.492569 133.740541,13.8414106 133.740541,16.7388535 C133.740541,19.6362964 136.095281,21.985138 139,21.985138 Z" id="Oval-25-Copy" fill="#272727" sketch:type="MSShapeGroup"></path>
+                        <path d="M108.467327,183.00542 L217.541288,183.00542 C225.823205,183.00542 232.537024,189.727551 232.537024,198.000389 L232.537024,397.90044 L108.467327,183.00542 Z" id="Rectangle-382-Copy-4" fill-opacity="0.25" fill="#FFFFFF" sketch:type="MSShapeGroup" transform="translate(170.433445, 290.302521) rotate(90.000000) translate(-170.433445, -290.302521) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
