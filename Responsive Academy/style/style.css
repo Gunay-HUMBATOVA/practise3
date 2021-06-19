@@ -1,0 +1,1119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* HTML */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+
+body {
+    font-size: 15px;
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~
+         LAYOUTS
+ ~~~~~~~~~~~~~~~~~~~~~*/
+
+.topnav {
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    background-color: #10466e;
+    border-color: #10466e;
+    padding: 0 11.5%;
+    font-size: 1rem;
+}
+
+/* topnav */
+
+.topnav a:nth-child(n+6) {
+    float: right;
+}
+
+.topnav a:not(:first-child), button.dropbutton {
+    padding: 27px 11px;
+}
+
+.topnav a:first-child {
+    padding: .9em;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topnav .active:hover {
+    background-color: #10466e;
+    cursor: initial;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+/* dropdown */
+
+.dropdown-content a:nth-child(n+6) {
+    float: none;
+}
+
+.dropdown a:nth-child(n+1) {
+    background-color: #10466e;
+    padding: 3px 20px;
+    color: #f2f2f2;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbutton {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1.55em .7em;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropbutton:after {
+    content: '\25be';
+}
+
+.dropdown-content {
+    visibility: hidden;
+    position: absolute;
+    background-color: #10466e;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: .5em 0;
+}
+
+.dropdown-content a {
+    float: none;
+    padding: .9em;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbutton, .dropdown-content a:hover {
+    background-color: #0d3858;
+    color: white;
+}
+
+.dropbutton + .dropdown-content:active,
+.dropbutton:focus + .dropdown-content {
+    visibility: visible;
+}
+
+/* responsive-icon */
+
+.icon {
+    border: 1px solid #f2f2f2;
+    line-height: 1px;
+    border-radius: 4px;
+    margin-top: 1em;
+    box-sizing: content-box;
+}
+
+a.icon:hover {
+    color: #10466e;
+    box-shadow: black;
+    background-color: #f2f2f2;
+}
+
+/* MEDIA NAV */
+
+@media only screen and (max-width: 1052px) {
+    .replace-text, .icons {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .replace-text::after {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        right: 0;
+        content: "Help";
+        padding: 27px 11px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .topnav {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .topnav {
+        padding: 0 2%;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .topnav a:not(:first-child), .dropdown .dropbutton {
+        display: none;
+        padding: 1em;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .replace-text, .icons {
+        visibility: visible;
+    }
+
+    .replace-text::after {
+        visibility: hidden;
+    }
+
+    .dropdown-content {
+        display: none;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .topnav.responsive {
+        padding: 0;
+        max-height: 410px;
+        overflow: auto;
+        position: static;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .topnav.responsive a:nth-child(2) {
+        margin-top: 71px;
+    }
+
+    .topnav.responsive .dropdown-content {
+        padding: 0;
+    }
+
+    .topnav.responsive .dropdown-content a {
+        text-align: left;
+        padding: 5px 15px 5px 25px;
+        position: static;
+    }
+
+    .topnav.responsive .active, .topnav.responsive .icon {
+        overflow: visible;
+        position: absolute;
+    }
+
+    .topnav.responsive .active {
+        top: 0;
+        right: 0;
+        left: 2%;
+        text-align: left;
+        padding-left: 5%;
+        position: absolute;
+        background-color: #10466e;
+        border-bottom: 5px solid rgba(255, 255, 255, 0.29);
+    }
+
+    .topnav.responsive .icon {
+        top: 0;
+        margin-right: 2%;
+        position: absolute;
+        right: 2%;
+        display: inherit;
+    }
+
+    .topnav.responsive .dropdown-content a:nth-child(2) {
+        margin: 0;
+    }
+
+    .topnav.responsive .dropdown {
+        float: none;
+    }
+
+    .topnav.responsive .dropdown-content {
+        position: static;
+        z-index: auto;
+    }
+
+    .topnav.responsive .dropdown .dropbutton {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* ~ Section ONE-1  */
+
+section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectionone {
+    min-height: 26.7em;
+    background: url("https://assets.learn.groklearning-cdn.com/static/images/webcomp/hero-teachers-light@2x.jpg") 50% no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.whitebox {
+    margin: 2.7em 12.7em;
+    background-color: #fff;
+    padding: 3em;
+    width: 459px;
+    height: 320px;
+    border-radius: 4px;
+    position: absolute;
+    display: inline-block;
+}
+
+h1, h3 {
+    padding-bottom: .4em;
+}
+
+blockquote {
+    padding-bottom: .2em;
+    line-height: 1.5;
+}
+
+.whitebox h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #10466e;
+    font-weight: bolder;
+}
+
+.whitebox h3 {
+    text-align: center;
+    font-size: 22px;
+    color: #10466e;
+    font-weight: bolder;
+}
+
+blockquote, .blockquote-attribution {
+    font-size: 20px;
+    text-align: center;
+    color: #555;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1040px) {
+    .sectionone {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .whitebox {
+        margin: 2.7em 14em;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .whitebox {
+        margin: 2.7em 0;
+        height: 80%;
+        width: 75%;
+        right: 11%;
+    }
+
+    .whitebox h1 {
+        font-size: 5vw;
+    }
+
+    .whitebox h3 {
+        font-size: 3vw;
+    }
+
+    blockquote, .blockquote-attribution {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .whitebox h1 {
+        font-size: 8vw;
+    }
+
+    .whitebox h3 {
+        font-size: 6vw;
+    }
+
+    blockquote, .blockquote-attribution {
+        font-size: 4vw;
+    }
+}
+
+/* Section two and five*/
+
+.col1 h1, .col2 h1, .col3 h1 {
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 61px;
+    color: #fb4251;
+}
+
+.col1, .col2 {
+    flex: 50%;
+}
+
+.col2 {
+    flex: 50%;
+    padding-right: 0;
+}
+
+.col1 {
+    padding-right: 3%;
+    margin-bottom: 10px;
+}
+
+.sectiontwo, .sectionfive {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sectiontwo {
+    padding: 7% 12%;
+}
+
+p.firstp {
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+p.secondp {
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #071d2e;
+}
+
+.sectionfive h3 {
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+    margin: 22px 0 11px;
+    padding: 0;
+}
+
+.sectionfive {
+    padding: 0 25%;
+}
+
+.col3 h1, .col3 h3 {
+    margin: 0 22px 11px;
+    padding: 0;
+}
+
+.col3 {
+    margin: 0 22px 11px;
+    text-align: center;
+}
+
+.sectionfive p {
+    margin-bottom: 11px;
+}
+
+.col3 a {
+    text-decoration: none;
+}
+
+.col3 a:hover {
+    text-decoration: underline;
+    color: #1b79bf;
+}
+
+@media screen and (max-width: 1040px) {
+    .col1, .col2 {
+        padding: 8% 3%;
+    }
+
+    .sectiontwo {
+        padding: 0;
+    }
+
+    .sectionfive {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .sectiontwo {
+        flex-direction: column;
+    }
+
+    .col1 {
+        padding-bottom: 3%;
+    }
+
+    .col2 {
+        padding-top: 0;
+    }
+
+    .sectionfive {
+        padding: 0 1%;
+    }
+
+}
+
+/* Section three and four */
+
+.graybackground {
+    background-color: #f0f0f0;
+    padding: 80px 0 5px;
+}
+
+.centertext, .sectionthree {
+    text-align: center;
+}
+
+.sectionthree:not(firstchild) {
+    display: flex;
+    margin: 10% 12% 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.beginner, .intermediate, .tournament, .tutorsupport, .achievement, .leaderboard {
+    flex: 10%;
+    padding-right: 20px;
+}
+
+.viewbutton {
+    width: 100%;
+    color: #fb4251;
+    border: 1px solid #fb4251;
+    display: block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.viewbutton:hover {
+    transition: .2s ease;
+    background-color: #fb4251;
+    color: white;
+}
+
+.centertext {
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: -8%;
+}
+
+.sectionthree h2 {
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000;
+    margin-top: 22px;
+    padding-bottom: 15px;
+}
+
+.sectionthree p {
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.whitebackground {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.tutorsupport, .achievement, .leaderboard {
+    padding: 0 15px;
+    margin: 30px 0 0;
+}
+
+
+@media screen and (max-width: 1332px) {
+    .sectionthree:not(firstchild) {
+        justify-content: space-between;
+        margin: 11% 2%;
+    }
+
+    .beginner, .intermediate, .tournament, .tutorsupport, .achievement, .leaderboard {
+        padding-bottom: 20px;
+    }
+
+    .graybackground {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .sectionthree:not(firstchild) {
+        flex-direction: column;
+    }
+}
+
+/* Section six */
+.sectionsix {
+    padding: 60px 12%;
+    text-align: center;
+}
+
+.sectionsix img:hover {
+    opacity: 0.5;
+}
+
+.sectionsix h1 {
+    margin: 22px 0 11px;
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+}
+
+.sectionsix p {
+    margin: 0 20px 11px;
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.sectionsix img {
+    border: none;
+    outline: none;
+    padding: 0 5% 7% 0;
+}
+
+.sectionsix a {
+    cursor: pointer;
+}
+
+.part1images, .part2images {
+    margin-left: 40px;
+    display: flex;
+    flex: 10%;
+    column-count: 4;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.bluebackground {
+    background: #f4f7fa;
+}
+
+@media screen and (max-width: 1332px) {
+    .part1images, .part2images {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .sectionsix {
+        padding: 30px 1%;
+    }
+
+    .part1images, .part2images {
+        flex-direction: column;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+
+/* Section seven */
+
+.laptop1 {
+    padding: 60px 12% 0;
+    display: block;
+    text-align: center;
+}
+
+.sectionseven h1 {
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+    margin: 22px 0 800px;
+    position: static;
+}
+
+.sectionseven h3, .row3 h3 {
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000;
+    margin: 22px 0 0;
+    padding: 0;
+}
+
+.sectionseven p, .row3 p {
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.row1 {
+    position: absolute;
+    margin: -790px 0 0 0;
+}
+
+.row3 {
+    padding: 0 12%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.row2 {
+    margin-top: -520px;
+    margin-bottom: -2px;
+    position: relative;
+}
+
+.row1 > div, .row2 > div, .row3 > div {
+    text-align: center;
+    width: 100%;
+}
+
+.item2, .item4, .item6 {
+    margin: 0 0 0 585px;
+    padding: 0 15px;
+}
+
+.item1, .item3, .item5 {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.sectionseven {
+    background: url("https://assets.learn.groklearning-cdn.com/static/images/marketing/learning-interface-laptop.svg") no-repeat 50%;
+    width: 100%;
+    height: 670px;
+    position: relative;
+}
+
+.arrow1::after {
+    content: '';
+    right: 70%;
+    bottom: 30%;
+    transform: rotate(20deg);
+    transform-origin: bottom right;
+    position: absolute;
+    z-index: 2;
+    border-top: 4px dotted #fb4251;
+    width: 110px;
+    height: 0;
+}
+
+.arrow2::after {
+    content: '';
+    left: 70%;
+    position: absolute;
+    z-index: 2;
+    border-top: 4px dotted #fb4251;
+    width: 110px;
+    height: 0;
+    bottom: 34%;
+    transform: rotate(-20deg);
+    transform-origin: bottom left;
+}
+
+.arrow3::after {
+    content: '';
+    right: 70%;
+    position: absolute;
+    z-index: 2;
+    border-top: 4px dotted #fb4251;
+    width: 110px;
+    height: 0;
+    bottom: 34%;
+    top: 20%;
+    transform: rotate(-20deg);
+    transform-origin: top right;
+}
+
+.arrow4::after {
+    content: '';
+    left: 70%;
+    position: absolute;
+    z-index: 2;
+    border-top: 4px dotted #fb4251;
+    width: 110px;
+    height: 0;
+    bottom: 34%;
+    top: 20%;
+    transform: rotate(20deg);
+    transform-origin: top left;
+}
+
+.blue-arrow5 {
+    content: '';
+    right: 50%;
+    top: auto;
+    bottom: auto;
+    position: absolute;
+    z-index: 2;
+    border: 4px dashed #10466e;
+    width: 0;
+    height: 80px;
+    display: inline-block;
+    background-position: center;
+}
+
+.blue-arrow5::after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 100%;
+    left: -16px;
+    border: 16px solid transparent;
+    border-top-color: #10466e;
+}
+
+.arrow6::after {
+    content: '';
+    right: 63%;
+    position: absolute;
+    z-index: 2;
+    border-top: 4px dotted #fb4251;
+    width: 110px;
+    height: 0;
+    bottom: 34%;
+    top: 42%;
+}
+
+.arrow7::after {
+    content: '';
+    left: 63%;
+    position: absolute;
+    z-index: 2;
+    border-top: 4px dotted #fb4251;
+    width: 110px;
+    height: 0;
+    bottom: 34%;
+    top: 42%;
+}
+
+.sec2 {
+    background: url("https://assets.learn.groklearning-cdn.com/static/images/marketing/dashboard-tablet.svg") no-repeat 50%;
+    margin-top: 40px;
+}
+
+
+.item5, .item6 {
+    top: 0;
+}
+
+@media screen and (max-width: 1332px) {
+    .laptop1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .arrow1, .arrow2, .arrow3, .arrow4, .blue-arrow5, .arrow6, .arrow7 {
+        visibility: hidden;
+    }
+
+    .sectionseven {
+        height: 70em;
+    }
+
+    .item1, .item2 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .item2, .item4, .item6 {
+        margin-left: 0;
+    }
+
+    .row1, .row2, .row3 {
+        padding: 0 2%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .row2 {
+        margin: 0;
+        bottom: 100px;
+    }
+
+    .sec2 {
+        background: url("https://assets.learn.groklearning-cdn.com/static/images/marketing/dashboard-tablet.svg") no-repeat 50%;
+        background-position: top;
+        padding-top: 320px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .sectionseven h1, .sec2 h1 {
+        font-size: 6vw;
+    }
+
+    .sectionseven h3, .sec2 h3 {
+        font-size: 4vw;
+    }
+
+    .sectionseven p, .sec2 p {
+        font-size: 3.5vw;
+    }
+}
+
+/* ~ Section eight */
+
+.sectioneight img {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    margin-bottom: -10%;
+    z-index: 3;
+}
+
+.sectioneight {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 12%;
+    font-weight: normal;
+}
+
+.competition-faqs, .related-courses, .past-tournament-designs {
+    margin-right: 2%;
+}
+
+.background-white {
+    background-color: white;
+    border-radius: 10px;
+    height: 230px;
+    width: 250px;
+}
+
+.sectioneight h2 {
+    font-weight: normal;
+    font-size: 18px;
+    padding: 25% 0 15px;
+}
+
+.sectioneight p {
+    font-weight: lighter;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.sectioneight button {
+    background-color: white;
+}
+
+.trycolor {
+    padding-bottom: 60px;
+}
+
+
+@media screen and (max-width: 1332px) {
+    .sectioneight {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .competition-faqs, .related-courses, .past-tournament-designs, .champion-schools {
+        margin: auto;
+        flex: 50%;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .sectioneight {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+}
+
+/* ~ Section nine */
+
+.sectionnine {
+    background-color: #fb4251;
+    width: 100%;
+    background-image: url('../images/red-groket.png');
+    background-size: 353px 289px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.sectionnine h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #f2f2f2;
+    font-weight: normal;
+    padding-bottom: 3%;
+}
+
+button.register-button {
+    text-align: center;
+    background-color: inherit;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 3%;
+}
+
+button.register-button:hover {
+    background-color: white;
+    color: #fb4251;
+}
+
+@media screen and (max-width: 1332px) {
+    .sectionnine {
+        background-image: url('../images/red-groket.png');
+        background-size: 25%;
+    }
+}
+
+/* ~ Section ten-footer */
+
+.sectionten-footer {
+    background-color: #10466e;
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30%;
+}
+
+hr.hr-color {
+    border: 2px solid #0d3858;
+    background-color: #0d3858;
+    outline-style: none;
+    width: 70%;
+    text-decoration: none;
+}
+
+.footer-navigation a {
+    list-style: none;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-navigation a:hover, .contact-addresses img:hover {
+    opacity: 0.5;
+}
+
+.contact-addresses {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 44%;
+}
+
+.end-paragraph {
+    text-align: center;
+    font-style: italic;
+    color: #f2f2f2;
+    font-weight: lighter;
+    font-size: 14px;
+    padding: 2%;
+}
+
+.end-paragraph span {
+    cursor: help;
+    border-bottom: 1px dotted #f2f2f2;
+}
+
+.explain-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #2f2c2c;
+    color: #fff;
+    border: 1px solid #f2f2f2;
+    text-align: center;
+    padding: 5px 0;
+    font-style: normal;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.end-paragraph span:hover + .explain-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 1332px) {
+    .footer-navigation {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 2% 0;
+        margin: 0 14%;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .footer-navigation {
+        flex-direction: column;
+        justify-content: center;
+        padding: 2%;
+    }
+}
